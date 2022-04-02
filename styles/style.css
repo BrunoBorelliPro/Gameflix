@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+:root{
+    --vermelha: #FF1717;
+    --preta: #1E1E24;
+    --branca: #f0e7d8;
+    --branca-clara: #ffffff;
+    --azul: #05A8AA;
+    --amarelo: #B4F033;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    color: var(--branca);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 40px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: var(--amarelo);
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--branca);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--branca-clara);
+}
+
+/* Game principal */
+
+.game-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../imgs/god_of_war.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.game-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.game-principal .titulo{
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+.botao{
+    color: var(--branca);
+    background-color: rgba(0,0,0,.50);
+    border: none;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    
+    transition: .3s;
+}
+
+.botao:hover{
+    color: var(--branca-clara);
+    background-color: rgba(0,0,0,.9);
+
+}
+
+.botao i{
+    margin-right: 8px;
+}

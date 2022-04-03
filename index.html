@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gameflix</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="./styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./styles/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -29,11 +34,12 @@
                     As aventuras de Kratos e seu filho Atreus na jornada mais emocionante e instigante de God Of War Kratos, o Deus da Guerra, deixou para trás sua vingança contra os deuses do Olimpo. Agora, vive como um homem comum, refugiado no reino dos deuses e monstros nórdicos.
                 </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button onclick="window.location.href='https://store.steampowered.com/app/1593500/God_of_War/'" role="button" class="botao">
                         <i class="fa-solid fa-gamepad"></i>
                         JOGAR
                     </button>
-                    <button role="button" class="botao">
+                    
+                    <button onclick="window.location.href='https://store.steampowered.com/app/1593500/God_of_War/'" role="button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -41,9 +47,48 @@
             </div>
         </div>
     </main>
-    <footer>
 
-    </footer>
+    <div class="carrosel-games">
+        <div class="owl-carousel owl-theme">
+            <div class="item box-game">
+                <img src="./imgs/capas/terraria.jfif" alt="Terraria">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/What-Remains-of-Edith-Finch-Cover-art.png" alt="What Remains of Edith Finch">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/Hollow_Knight.webp" alt="Hollow Knight">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/slime.jpg" alt="Slime Rancher">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/assassins.jpg" alt="Assassin's Creed Odyssey">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/carrion.jpg" alt="Carrion">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/darksouls.jfif" alt="DARK SOULS: REMASTERED">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/gta.jfif" alt="Grand Theft Auto V">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/horizon.jpg" alt="Horizon Forbidden West">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/monster-hunter-world.jpg" alt="Monster Hunter: World">
+            </div>
+            <div class="item box-game">
+                <img src="./imgs/capas/witcher.webp" alt="The Witcher 3: Wild Hunt">
+            </div>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/75fa9d8e9e.js" crossorigin="anonymous"></script>
+
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

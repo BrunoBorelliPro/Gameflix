@@ -48,7 +48,7 @@ header nav a:hover{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../imgs/god_of_war.jpg');
 
-    height: 400px;
+    height: 80vh;
     background-size: cover;
 
     display: flex;
@@ -89,4 +89,22 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.game-principal .container{
+    width: 80%;
+}
+
+.box-game{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-games{
+    margin-top: 50px;
 }

@@ -5,6 +5,8 @@
 
 Gameflix é um projeto criado para o desafio "Recriando a Interface da Netflix" da Dio.
 
+[Gameflix](https://brunoborellipro.github.io/Gameflix/)
+
 ![gameflix](imgs/gameflix.png)
 
 - - -
